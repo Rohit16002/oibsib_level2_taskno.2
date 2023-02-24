@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.title-box {
+  background-image: url(Images/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+}
+
+.title {
+  position: relative;
+  top: 18rem;
+  justify-self: center;
+  font-size: 65px;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+}
+
+.sub {
+  color: white;
+  justify-self: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.container {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(74, 74, 74);
+  height: 100vh;
+}
+
+.img1 {
+  float: left;
+  height: 45.7rem;
+  margin: 0px;
+  padding-right: 50px;
+  padding-left: 20px;
+
+}
+
+#name {
+  position: relative;
+  top: 200px;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.name-txt {
+  position: relative;
+  top: 220px;
+  color: white;
+  font-size: 26px;
+  padding-right: 70px;
+  font-family: "Roboto", sans-serif;
+  text-indent: 50px;
+  text-align: justify;
+}
+
+#container2 {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(48, 46, 46);
+  height: 200vh;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  max-width: 800px;
+}
+
+h4 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: 0px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Alegreya', serif;
+}
+
+li {
+  text-align: justify;
+  color: white;
+  font-family: 'Alegreya', 'Rokkitt';
+  margin: 20px;
+  font-size: 17px;
+}
+
+.container3 {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(74, 74, 74);
+  height: 98vh;
+  display: flex;
+}
+
+.txt {
+  margin: 0px;
+  align-self: center;
+  justify-self: flex-start;
+  color: white;
+  font-size: 3rem;
+  max-width: 550px;
+  padding-left: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.image_box {
+  padding: 0px;
+  margin: 0px;
+}
+
+.image {
+  position: relative;
+  top: 210px;
+  left: 300px;
+  height: 300px;
+  border: 10px solid whitesmoke;
+}
+
+.txt1 {
+  height: 50px;
+  position: relative;
+  top: 540px;
+  left: -125px;
+  color: #fff;
+  font-size: 1rem;
+  max-width: 480px;
+}
+
+
+footer {
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-color: rgb(74, 74, 74);
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
